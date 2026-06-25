@@ -22,7 +22,7 @@ Analyze a multi-year retail dataset from a global "Superstore" to extract action
 
 ---
 
-## 📂 Database Schema
+## 📂 Database Schema 
 
 | Table | Key Columns |
 |-------|-------------|
@@ -37,6 +37,16 @@ CREATE INDEX idx_order_date ON superstore(order_date);
 
 ---
 
+## 📊 SQL Queries
+
+| # | Query File | Description |
+|---|------------|-------------|
+| 1 | [01_data_overview.sql](/SQL_FILES/01_data_overview.sql) | Check for NULL values |
+| 2 | [02_category_profitability.sql](/SQL_FILES/02_category_profitability.sql) | Product profitability analysis |
+| 3 | [03_top_customers.sql](/SQL_FILES/03_top_customers.sql) | Top customers analysis |
+| 4 | [04_regional_sales.sql](/SQL_FILES/04_regional_sales.sql) | Regional performance |
+| 5 | [05_monthly_sales_trends.sql](/SQL_FILES/05_monthly_sales_trends.sql) | Monthly sales & profit |
+| 6 | [06_shipping_efficiency.sql](/SQL_FILES/06_shipping_efficiency.sql) | Logistics analysis |
 ## 📊 Analysis Queries & Results
 
 ### Query 1: Data Quality Check
@@ -391,7 +401,7 @@ I'm always open to:
 
 ### ⭐ One Last Thing...
 
-If you found this project helpful or interesting, **please give it a star** ⭐ on GitHub! It really motivates me to keep learning and sharing! 🚀
+If you found this project helpful or interesting, **please give it a star**       on GitHub! It really motivates me to keep learning and sharing! 🚀
 
 ---
 
