@@ -52,7 +52,6 @@ CREATE INDEX idx_order_date ON superstore(order_date);
 ### Query 1: Data Quality Check
 
 **Purpose:** Verify total rows and check for NULL values.
-
 ```sql
 SELECT 
     COUNT(*) AS total_rows,

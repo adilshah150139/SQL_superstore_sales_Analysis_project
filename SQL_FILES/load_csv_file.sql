@@ -9,4 +9,4 @@ ENCODING 'LATIN1';
 
 SELECT *
 FROM superstore
-LIMIt 100;
+LIMIt 1000;
