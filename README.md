@@ -9,6 +9,8 @@ Analyze a multi-year retail dataset from a global "Superstore" to extract action
 - Recommend data-driven strategies to boost net profit margins
 
 ---
+## 📂 Dataset
+- **Kaggle:** [Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
 ## 🛠️ Tech Stack & SQL Skills Demonstrated
 
@@ -317,11 +319,11 @@ And that's a wrap! 🎬 This SQL analysis of the Superstore dataset uncovered so
 
 | Area | What We Found | 💡 Why It Matters |
 |------|---------------|-------------------|
-| **Product Profitability** | Technology rules! 💻 Copiers, Phones & Accessories are money-makers. Tables & Bookcases? Not so much... 😬 | Time to rethink pricing or say goodbye to loss-makers! |
-| **Customer Value** | Top 5 customers spent **$88K+** combined! 🤯 Sean Miller is our VIP with $25K spent | Let's treat these rockstars like royalty! 👑 |
-| **Regional Performance** | West = 🥇 ($101K). South = 📉 ($58K). Big gap! | Time to show the South some love ❤️ with more marketing |
-| **Shipping Efficiency** | Faster shipping = 💰 higher profit! First Class = $31.84 per order vs Standard = $27.49 | Let's get customers to choose faster shipping! 🚀 |
-| **Seasonal Trends** | November-December = 🎄 CRAZY busy! January-February = 😴 snooze fest | Plan promotions for the slow months! |
+| **Product Profitability** | Technology rules! Copiers, Phones & Accessories are money-makers. Tables & Bookcases? Not so much... | Time to rethink pricing or say goodbye to loss-makers! |
+| **Customer Value** | Top 5 customers spent **$88K+** combined! Sean Miller is our VIP with $25K spent | Let's treat these rockstars like royalty! |
+| **Regional Performance** | West = ($101K). South = ($58K). Big gap! | Time to show the South some love with more marketing |
+| **Shipping Efficiency** | Faster shipping = higher profit! First Class = $31.84 per order vs Standard = $27.49 | Let's get customers to choose faster shipping! |
+| **Seasonal Trends** | November-December =  CRAZY busy! January-February = snooze fest | Plan promotions for the slow months! |
 
 ---
 
@@ -329,11 +331,11 @@ And that's a wrap! 🎬 This SQL analysis of the Superstore dataset uncovered so
 
 | Priority | Action | Why? |
 |----------|--------|------|
-| 🔴 **Do It NOW!** | Fix pricing on **Tables & Bookcases** | They're losing money! Let's turn that around 💸 |
-| 🔴 **Do It NOW!** | Go ALL IN on **Copiers, Phones & Accessories** | These are our cash cows! 🐄💰 |
-| 🟡 **Let's Plan It** | Promote **First Class** shipping more | Higher profit per order = happy finance team! 😊 |
-| 🟡 **Let's Plan It** | Start a **loyalty program** for top customers | Keep our VIPs coming back for more! 🎁 |
-| 🟢 **Nice to Have** | Run **January-February promotions** | Let's beat the post-holiday blues! ☀️ |
+| 🔴 **Do It NOW!** | Fix pricing on **Tables & Bookcases** | They're losing money! Let's turn that around |
+| 🔴 **Do It NOW!** | Go ALL IN on **Copiers, Phones & Accessories** | These are our cash cows! |
+| 🟡 **Let's Plan It** | Promote **First Class** shipping more | Higher profit per order = happy finance team!  |
+| 🟡 **Let's Plan It** | Start a **loyalty program** for top customers | Keep our VIPs coming back for more! |
+| 🟢 **Nice to Have** | Run **January-February promotions** | Let's beat the post-holiday blues! |
 
 ---
 
@@ -341,42 +343,42 @@ And that's a wrap! 🎬 This SQL analysis of the Superstore dataset uncovered so
 
 Here's the cool SQL stuff I practiced in this project:
 
-| Skill | What I Did | ⚡ Cool Factor |
-|-------|------------|---------------|
-| **Data Cleaning** | Found zero NULL values! Dataset was squeaky clean 🧹 | 🧼✨ |
-| **Window Functions** | Used `DENSE_RANK()` to find top products per region | 🏆 |
-| **CTEs** | Made complex queries look clean & readable | 📖 |
-| **Date Functions** | `DATE_TRUNC()` to see monthly trends | 📅 |
-| **Aggregations** | `SUM()`, `AVG()`, `COUNT()` to crunch numbers | 🔢 |
+| Skill | What I Did | 
+|-------|------------|
+| **Data Cleaning** | Found zero NULL values! Dataset was squeaky clean  |
+| **Window Functions** | Used `DENSE_RANK()` to find top products per region | 
+| **CTEs** | Made complex queries look clean & readable | 
+| **Date Functions** | `DATE_TRUNC()` to see monthly trends | 
+| **Aggregations** | `SUM()`, `AVG()`, `COUNT()` to crunch numbers |
 
 ---
 
 ### 🚀 What I Learned
 
-> **Data is just numbers until you ask the right questions!** 🤔
+> **Data is just numbers until you ask the right questions!** 
 
 This project taught me how to:
-- ✅ Think like a business analyst 🧠
-- ✅ Turn raw data into actionable insights 💡
-- ✅ Write clean, professional SQL queries 🧹
-- ✅ Present findings in a way that actually makes sense 📊
+- ✅ Think like a business analyst 
+- ✅ Turn raw data into actionable insights 
+- ✅ Write clean, professional SQL queries 
+- ✅ Present findings in a way that actually makes sense 
 
 ---
 
 ### 🔮 What's Next?
 
-| Step | What I Want to Do | 🌟 Goal |
+| Step | What I Want to Do |  Goal |
 |------|-------------------|---------|
-| **Visualization** | Build dashboards in Power BI or Tableau | Make insights even more visual! 📊✨ |
-| **Predictive Analysis** | Forecast future sales with Python | Predict the future! 🔮 |
-| **Automation** | Set up monthly automated reports | Save time & be efficient! ⏰ |
-| **More Data** | Analyze other cool datasets | Keep learning & growing! 🌱 |
+| **Visualization** | Build dashboards in Power BI or Tableau | Make insights even more visual! |
+| **Predictive Analysis** | Forecast future sales with Python | Predict the future! |
+| **Automation** | Set up monthly automated reports | Save time & be efficient!  |
+| **More Data** | Analyze other cool datasets | Keep learning & growing! |
 
 ---
 
 ### 🙏 A Big Thank You!
 
-If you made it this far... **THANK YOU!** 🥳
+If you made it this far... **THANK YOU!** 
 
 This project was a fun deep dive into the world of SQL and business analytics. I hope you found it as interesting as I did!
 
